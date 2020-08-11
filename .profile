@@ -27,3 +27,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export GOPATH="$HOME/.go"
+export PATH="$GOPATH/bin:$PATH"
